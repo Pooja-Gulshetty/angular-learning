@@ -1,0 +1,17 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-logged-in-user',
+  templateUrl: './logged-in-user.component.html',
+  styleUrls: ['./logged-in-user.component.css']
+})
+export class LoggedInUserComponent implements OnInit {
+
+  userName: string="pooja"
+  names=["Pooja", "iranna", "lokesh"]
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
